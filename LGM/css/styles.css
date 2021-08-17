@@ -1,0 +1,219 @@
+body {
+  font-family: "Montserrat";
+  text-align: inherit;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+  h2{
+    padding-top: 20px;
+   padding-right:10%;
+   text-align: center;
+
+
+ color: #9E512F;
+  }
+.foot{
+  color: #9E512F;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 4.5rem;
+  line-height: 1.5;
+  padding-bottom:  135px;
+  color: #FFFEF7;
+
+}
+/* Containers */
+
+.container-fluid{
+  padding: 5% 20%;
+}
+
+/* Sections */
+.navbar-brand{
+  font-family: "Montserrat-Black";
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+
+/* Navigation Bar */
+.navbar{
+     padding:0 0 7.5rem;
+    font-family: 'Lato', sans-serif;
+    color:#FFFFFF;
+    font-size: 20px;
+    margin: 0px;
+  }
+
+.nav-item{
+    padding:0 10px;
+    font-family: 'Lato', sans-serif;
+    color:	#ff0000;
+    font-size: 20px;
+    margin: 0px;
+  }
+
+
+#home {
+  background-image: url("cake.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+  text-align: left;
+}
+
+#home.container-fluid {
+  padding: 3% 15% 7%;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 32.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 40.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 40%;
+  }
+}
+#features{
+
+padding-left: 5%;
+
+
+}
+#bestsellers{
+    padding: 7% 14% 5%;
+    padding-left: 17%;
+
+}
+
+#desserts{
+    padding: 7% 14% 5%;
+    padding-left: 17%;
+
+}
+#features{
+  z-index: 1;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+#purchase{
+  border-radius: 1px;
+  background-color: #CB9064;
+  padding: 10px;
+}
+
+.coloured-section{
+  background-color: #D08D61;
+}
+.column {
+  align-items: center;
+  padding-right: 50%;
+  padding-left: 125px;
+
+
+}
+.label{
+  text-align: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.contact{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+}
+.des{
+  height: 450px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+.pic{
+  padding-left: 60%;
+  padding-bottom: 34%
+}
+.img2 {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
